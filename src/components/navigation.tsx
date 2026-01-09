@@ -9,12 +9,12 @@ export function Navigation() {
   };
 
   const navItems = [
-    { id: 'about', label: 'About' },
-    { id: 'education', label: 'Education' },
-    { id: 'experience', label: 'Experience' },
-    { id: 'projects', label: 'Projects' },
-    { id: 'certifications', label: 'Certifications' },
-    { id: 'skills', label: 'Skills' },
+    { id: 'about', label: '🙋‍♀️About' },
+    { id: 'education', label: '📖Education' },
+    { id: 'experience', label: '🤓Experience' },
+    { id: 'projects', label: '🧑🏻‍💻Projects' },
+    { id: 'certifications', label: '🏆Certifications' },
+    { id: 'skills', label: '🥷🏻Skills' },
   ];
 
   return (

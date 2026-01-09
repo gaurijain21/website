@@ -4,25 +4,28 @@ import { Code, ExternalLink, Github } from 'lucide-react';
 export function ProjectsSection() {
   const projects = [
     {
-      title: 'Website Accessibility Compliance Web Application',
-      description: 'Full-stack web application with user authentication, product catalog, and payment integration.',
-      technologies: ['React', 'Express.js', 'PostgreSQL', 'Stripe API'],
-      github: '#',
-      demo: '#'
+      title: 'A11yWebCheck: Website Accessibility Compliance Checker (Live)',
+      description: 'Full-stack web application that checks website accessibility and ADA compliance, categorizes issues by severity, and shows actionable fixes.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Axe-core', 'Vercel', 'Render', 'Accessible Features'],
+      demo: 'https://a11ywebcheck.vercel.app/'
     },
     {
       title: 'AI Navigation App for Visually Impaired Users',
-      description: 'CNN model for image classification with 95% accuracy on test dataset.',
-      technologies: ['Python', 'TensorFlow', 'OpenCV', 'Jupyter'],
-      github: '#',
-      demo: '#'
+      description: 'Built an AI-powered navigation app for visually impaired users using real-time video streaming and computer vision to detect and describe surroundings.',
+      technologies: ['Python', 'TensorFlow', 'OpenCV', 'LiveKit AI Agents', 'Computer Vision'],
+      demo: 'https://www.linkedin.com/feed/update/urn:li:activity:7389786940994293760/'
+      
+    },
+    {
+      title: "World's Largest Digital Collage for Accessibility Community (Live)",
+      description: 'A digital initiative to bring together individuals, organizations, and allies from the global accessibility community together on one page.',
+      technologies: ['HTML', 'Accessibility', 'Accessible Features'],
+      demo: 'https://tinyurl.com/Collage25'
     },
     {
       title: 'Digital Accessibility for All Research project',
-      description: 'Cross-platform mobile app for task management with real-time synchronization.',
-      technologies: ['React Native', 'Firebase', 'Redux', 'TypeScript'],
-      github: '#',
-      demo: '#'
+      description: 'Conducted Digital Accessibility evaluation for UCSC website. Granted funding from UCSC Student Project funds. Showcased in Baskin Engineering ACM Conference 2025.',
+      technologies: ['Research Paper', 'Accessibility', 'Conference'],
     }
   ];
 
@@ -52,21 +55,19 @@ export function ProjectsSection() {
               ))}
             </div>
             <div className="flex gap-3">
-              <a
-                href={project.github}
-                className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <Github size={16} />
-                <span className="text-sm">Code</span>
-              </a>
-              <a
-                href={project.demo}
-                className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"
-              >
-                <ExternalLink size={16} />
-                <span className="text-sm">Demo</span>
-              </a>
+              {project.demo && (
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  <ExternalLink size={16} />
+                  <span className="text-sm">Demo</span>
+                </a>
+              )}
             </div>
+
           </div>
         ))}
       </div>

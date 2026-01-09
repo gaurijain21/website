@@ -7,36 +7,43 @@ export function ExperienceSection() {
       title: 'Engineering Team',
       company: 'CruzHacks @ UC Santa Cruz',
       period: 'September 2025 - Present',
-      description: 'Developed web applications using React and Node.js. Collaborated with senior developers on feature implementation and bug fixes.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Git']
+      description: 'Developed and maintained production web features for the CruzHacks website, supporting UCSC’s largest hackathon with 600+ participants. Shipped responsive UI updates and live fixes under real-time contraints for HackDays and Hackathon',
+      technologies: ['TypeScript', 'React', 'HTML', 'Tailwind CSS', 'Git']
     },
     {
-      title: 'Auditor',
-      company: 'AIEA Lab @ UC Santa Cruz',
+      title: 'Undergrad Researcher',
+      company: 'Artificial Intelligence Lab @ UC Santa Cruz',
       period: 'January 2026 - Present',
-      description: '',
-      technologies: ['Java', 'Python', 'Teaching', 'Mentoring']
+      description: 'Working on LLM logic project focused on translating natural-language legal documents into Prolog to enable structured reasoning.',
+      technologies: ['Prolog', 'LLMs', 'AI', 'Reasoning']
     },
     {
       title: 'Co-founder',
       company: 'CherryWheels.com (Social Venture)',
       period: 'June 2024 - Present',
-      description: '',
-      technologies: ['Java', 'Python', 'Teaching', 'Mentoring']
+      description: 'Built and scaled my startup CherryWheels.com (designer wheel covers for wheelchair users), sold 100+ wheel covers, partnered with Ms. Wheelchair America, Help Hope Live and other Accessibility organizations',
+      technologies: ['Entrepreneurship', 'Accessibility', 'Women Empowerment', 'Inclusion']
     },
     {
       title: 'Adobe Student Ambassador',
       company: 'Adobe',
       period: 'September 2024 - Present',
-      description: '',
-      technologies: ['Java', 'Python', 'Teaching', 'Mentoring']
+      description: 'Tested new Adobe product features and workflows pre-launch, identifying usability issues and providing feedback to product teams to improve user experience. Acted as a student liaison, gathering user insights and translating student needs into actionable product recommendations.',
+      technologies: ['Adobe Express', 'Creativity', 'Workshops', 'Pre-launch testing']
     },
     {
-      title: 'Research intern',
+      title: 'Research Intern',
       company: 'Readability Research Group, Adobe',
-      period: 'June 2024 - Present',
-      description: '',
-      technologies: ['Java', 'Python', 'Teaching', 'Mentoring']
+      period: 'Jan 2023 - Jan 2024',
+      description: 'Analyzed & summarized 70+ research papers (genre of reading & legibility), spread across dyslexic & non- impaired readers with respect to their reading speed, accuracy, & comprehension across digital surfaces. Generated design recommendations to improve digital redability which were algorithmically programmed to explore the creation of ML tools.',
+      technologies: ['Readability', 'Research Papers', 'Adobe', 'Varied User Groups']
+    },
+    {
+      title: 'President, Adobe Club',
+      company: 'UC Santa Cruz',
+      period: 'January 2026 - Present',
+      description: 'Led and scaled the student organization, driving campus-wide engagement with Adobe Creative Cloud tools.',
+      technologies: ['Adobe', 'Workshops', 'Adobe Express', 'Adobe Firefly', 'Creativity', 'Leadership']
     }
   ];
 

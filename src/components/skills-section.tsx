@@ -4,24 +4,24 @@ import { Wrench } from 'lucide-react';
 export function SkillsSection() {
   const skillCategories = [
     {
-      category: 'Programming Languages',
-      skills: ['Java', 'Python', 'JavaScript', 'TypeScript', 'C++', 'SQL']
+      category: 'Languages',
+      skills: ['Python', 'JavaScript', 'TypeScript', 'C++', 'C', 'SQL', 'HTML', 'CSS','Risc-V Assembly']
     },
     {
-      category: 'Web Technologies',
-      skills: ['React', 'Node.js', 'HTML/CSS', 'Express.js', 'Next.js', 'Tailwind CSS']
+      category: 'Frameworks & Backend',
+      skills: ['React', 'Node.js', 'Next.js', 'Expo', 'Flask', 'SQL', 'Firebase', 'Render']
     },
     {
-      category: 'Databases',
-      skills: ['PostgreSQL', 'MongoDB', 'MySQL', 'Redis']
+      category: 'Libraries and ML',
+      skills: ['Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'OpenCV', 'TensorFlow', 'PyTorch']
     },
     {
       category: 'Tools & Technologies',
-      skills: ['Git', 'Docker', 'AWS', 'Linux', 'VS Code', 'Figma']
+      skills: ['Git', 'AWS', 'VS Code', 'Figma', 'Vercel', 'Jetson Nano', 'Stripe']
     },
     {
       category: 'Concepts',
-      skills: ['Data Structures', 'Algorithms', 'OOP', 'REST APIs', 'Agile', 'Testing']
+      skills: ['Data Structures', 'Algorithms', 'Object-Oriented Programming', 'REST APIs', 'Testing', 'Agile Development', 'Accessibile website']
     }
   ];
 

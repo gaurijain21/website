@@ -1,10 +1,11 @@
 import React from 'react';
 
+
 export function AboutSection() {
   return (
     <section id="about" className="py-12">
       <div className="bg-card rounded-lg p-8 border border-border">
-        <h2 className="text-2xl font-bold text-card-foreground mb-4">About Me</h2>
+        <h2 className="text-2xl font-bold text-card-foreground mb-4">🙋‍♀️About Me</h2>
         <p className="text-card-foreground leading-relaxed">
           Hi I’m Gauri Jain, a Computer Science student at UC Santa Cruz who enjoys building things, understanding how systems work, and turning ideas into clear, well-structured solutions. 
           I like working on projects where I can think through problems step by step, write clean and logical code, and see something tangible come together. 
