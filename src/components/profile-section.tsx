@@ -1,6 +1,6 @@
 import React from 'react';
 import { Linkedin, Github } from 'lucide-react';
-import gauriImg from "./gauri.png";
+import gauriImg from "./src/components/Gauri.png";
 
 export function ProfileSection() {
   return (
