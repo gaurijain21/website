@@ -1,13 +1,13 @@
 import React from 'react';
 import { Linkedin, Github } from 'lucide-react';
-
+import gauriImg from "./gauri.png";
 
 export function ProfileSection() {
   return (
     <section className="text-center py-12">
       <div className="mb-6">
         <img
-          src="./src/components/gauri.png"
+          src={gauriImg}
           alt="Profile Picture"
           width={200}
           height={200}
