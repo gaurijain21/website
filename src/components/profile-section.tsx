@@ -7,7 +7,7 @@ export function ProfileSection() {
     <section className="text-center py-12">
       <div className="mb-6">
         <img
-          src="https://tryeasel.dev/placeholder.svg?width=200&height=200"
+          src="./src/components/Gauri.png"
           alt="Profile Picture"
           width={200}
           height={200}
