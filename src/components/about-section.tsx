@@ -15,14 +15,13 @@ export function AboutSection() {
         </div>
         <div className="rounded-2xl border border-slate-200 bg-white p-7 shadow-sm shadow-slate-200/70 sm:p-9">
           <p className="text-lg leading-8 text-slate-700">
-            Hi I'm Gauri Jain, a Computer Science student at UC Santa Cruz who enjoys building
-            things, understanding how systems work, and turning ideas into clear,
-            well-structured solutions. I like working on projects where I can think through
-            problems step by step, write clean and logical code, and see something tangible come
-            together. I care strongly about digital accessibility and think about how software
-            can be built to work well for a wide range of users! I'm also the co-founder of
-            CherryWheels, a women-founded community initiative focused on confidence and
-            self-expression for wheelchair users through designer wheel covers.
+            Hi, I’m Gauri Jain, a Computer Science student at UC Santa Cruz. Welcome to my website!
+            <br /><br />
+
+            I’m interested in building software that is practical, thoughtful, and easy to use. I enjoy working across both the technical and user-facing sides of a project: designing features, writing structured code, debugging problems, and improving how an application feels for the people using it. I like projects where I can take an idea from an early concept to something real, functional, and polished.
+            <br /><br />
+
+            I also care deeply about digital accessibility and believe software should be built to work well for a wide range of users. I’m interested in creating solutions that are not just technically strong, but also inclusive and user-centered.
           </p>
         </div>
       </div>
