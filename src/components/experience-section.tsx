@@ -1,5 +1,11 @@
 import React from "react";
 import { Briefcase } from "lucide-react";
+import adobeLogo from "../assets/logos/adobe1.png";
+import adobeReadabilityLogo from "../assets/logos/empty.jpg";
+import aiLabLogo from "../assets/logos/ucsc1.jpg";
+import cherryWheelsLogo from "../assets/logos/empty.jpg";
+import cruzHacksLogo from "../assets/logos/Cruzhacks.png";
+import overtureLogo from "../assets/logos/omf.png";
 
 type Experience = {
   title: string;
@@ -8,6 +14,7 @@ type Experience = {
   description: string;
   technologies: string[];
   logoAlt: string;
+  logoSrc: string;
   initials: string;
   logoTone: string;
 };
@@ -21,7 +28,8 @@ export function ExperienceSection() {
       description:
         "Developed geospatial data pipelines to link POIs with buildings and addresses using spatial joins and nearest-neighbor matching. Implemented confidence scoring, failure analysis, and validation systems to improve accuracy on large-scale, noisy real-world map data.",
       technologies: ["Python", "Pandas", "GeoPandas", "Shapely", "Geospatial Analysis", "Data Engineering"],
-      logoAlt: "Overture Maps Foundation logo placeholder",
+      logoAlt: "Overture Maps Foundation logo",
+      logoSrc: overtureLogo,
       initials: "OM",
       logoTone: "bg-sky-100 text-sky-700 ring-sky-200",
     },
@@ -32,7 +40,8 @@ export function ExperienceSection() {
       description:
         "Developed and maintained production web features for the CruzHacks website, supporting UCSC's largest hackathon with 600+ participants. Shipped responsive UI updates and live fixes under real-time constraints for HackDays and the hackathon.",
       technologies: ["TypeScript", "React", "HTML", "Tailwind CSS", "Git"],
-      logoAlt: "CruzHacks logo placeholder",
+      logoAlt: "CruzHacks logo",
+      logoSrc: cruzHacksLogo,
       initials: "CH",
       logoTone: "bg-sky-100 text-sky-700 ring-sky-200",
     },
@@ -43,7 +52,8 @@ export function ExperienceSection() {
       description:
         "Working on Touching Space, an accessibility-focused project building an audio–haptic map system to help blind and low-vision users understand and navigate spatial environments.",
       technologies: ["Prolog", "LLMs", "AI", "Reasoning"],
-      logoAlt: "Artificial Intelligence Lab logo placeholder",
+      logoAlt: "Artificial Intelligence Lab logo",
+      logoSrc: aiLabLogo,
       initials: "AI",
       logoTone: "bg-violet-100 text-violet-700 ring-violet-200",
     },
@@ -52,9 +62,10 @@ export function ExperienceSection() {
       company: "CherryWheels.com (Social Venture)",
       period: "June 2024 - Present",
       description:
-        "Built and scaled CherryWheels.com, a designer wheel cover venture for wheelchair users. Sold 100+ wheel covers and partnered with Ms. Wheelchair America, Help Hope Live, and other accessibility organizations.",
+        "Women-founded venture crafting Designer Wheel Covers to boost confidence of Wheelchair users. Led end-to-end product lifecycle. Built operational systems (e-commerce) & automated influencer outreach workflows for marketing efficiency & high user engagement. Got featured in Adobe Supplier Diversity Newsletter, UCSC Baskin Engineering Newsletter, Marquees Who’s Who Magazine.",
       technologies: ["Entrepreneurship", "Accessibility", "Women Empowerment", "Inclusion"],
-      logoAlt: "Cherry Wheels logo placeholder",
+      logoAlt: "Cherry Wheels logo",
+      logoSrc: cherryWheelsLogo,
       initials: "CW",
       logoTone: "bg-rose-100 text-rose-700 ring-rose-200",
     },
@@ -63,9 +74,10 @@ export function ExperienceSection() {
       company: "Adobe",
       period: "September 2024 - Present",
       description:
-        "Tested new Adobe product features and workflows pre-launch, identified usability issues, and provided product feedback. Acted as a student liaison by translating student needs into actionable product recommendations.",
+        "Tested new Adobe product features and workflows pre-launch, identifying usability issues and providing feedback to product teams to improve user experience including Adobe Firefly (Generative AI). Planned and executed campus workshops, managing event logistics and stakeholder engagement to increase product adoption.",
       technologies: ["Adobe Express", "Creativity", "Workshops", "Pre-launch testing"],
-      logoAlt: "Adobe logo placeholder",
+      logoAlt: "Adobe logo",
+      logoSrc: adobeLogo,
       initials: "AD",
       logoTone: "bg-red-100 text-red-700 ring-red-200",
     },
@@ -74,9 +86,10 @@ export function ExperienceSection() {
       company: "Readability Research Group, Adobe",
       period: "Jan 2023 - Jan 2024",
       description:
-        "Analyzed and summarized 70+ research papers about reading genre and legibility across dyslexic and non-impaired readers. Generated design recommendations to improve digital readability and support ML tool exploration.",
+        "Analyzed and studied 70+ research papers, spread across dyslexic, non-dyslexic, impaired & non-impaired readers with respect to their reading speed, accuracy, & comprehension across digital surfaces. Categorized the data into speed rank, fixation duration, & reading accessibility index to measure the effects of font attribute choices via statistical inference tests to explore the creation of ML tools for personalized reading interfaces with improved digital readability.",
       technologies: ["Readability", "Research Papers", "Adobe", "Varied User Groups"],
-      logoAlt: "Adobe Readability Research Group logo placeholder",
+      logoAlt: "Adobe Readability Research Group logo",
+      logoSrc: adobeReadabilityLogo,
       initials: "AR",
       logoTone: "bg-red-100 text-red-700 ring-red-200",
     }
@@ -110,11 +123,26 @@ export function ExperienceSection() {
             >
               <div className="grid gap-5 sm:grid-cols-[4rem_1fr]">
                 <div
-                  className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl text-sm font-bold ring-1 ${exp.logoTone}`}
+                  className="relative flex h-18 w-18 shrink-0 items-center justify-center overflow-hidden rounded-2xl p-1"
                   aria-label={exp.logoAlt}
                   title={exp.logoAlt}
                 >
-                  {exp.initials}
+                  <span
+                    className={`absolute inset-0 hidden items-center justify-center text-sm font-bold ${exp.logoTone}`}
+                    aria-hidden="true"
+                  >
+                    {exp.initials}
+                  </span>
+                  <img
+                    src={exp.logoSrc}
+                    alt={exp.logoAlt}
+                    className="relative h-full w-full object-contain"
+                    onError={(event) => {
+                      event.currentTarget.previousElementSibling?.classList.remove("hidden");
+                      event.currentTarget.previousElementSibling?.classList.add("flex");
+                      event.currentTarget.classList.add("hidden");
+                    }}
+                  />
                 </div>
                 <div>
                   <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">

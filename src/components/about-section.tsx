@@ -18,7 +18,7 @@ export function AboutSection() {
             Hi, I’m Gauri Jain, a Computer Science student at UC Santa Cruz. Welcome to my website!
             <br /><br />
 
-            I’m interested in building software that is practical, thoughtful, and easy to use. I enjoy working across both the technical and user-facing sides of a project: designing features, writing structured code, debugging problems, and improving how an application feels for the people using it. I like projects where I can take an idea from an early concept to something real, functional, and polished.
+            I’m interested in building software that is practical, thoughtful, and easy to use. I enjoy working across both the technical and user-facing sides of a project: designing features, writing structured code, debugging problems, and improving how an application feels for the people using it.
             <br /><br />
 
             I also care deeply about digital accessibility and believe software should be built to work well for a wide range of users. I’m interested in creating solutions that are not just technically strong, but also inclusive and user-centered.
