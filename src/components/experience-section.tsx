@@ -36,7 +36,7 @@ export function ExperienceSection() {
     {
       title: "Undergrad Researcher",
       company: "Artificial Intelligence Lab @ UC Santa Cruz",
-      period: "April 2025 - Present",
+      period: "April 2026 - Present",
       description:
         "Working on Touching Space, an accessibility-focused project building an audio–haptic map system to help blind and low-vision users understand and navigate spatial environments.",
       technologies: ["Prolog", "LLMs", "AI", "Reasoning"],
@@ -60,7 +60,7 @@ export function ExperienceSection() {
     {
       title: "Adobe Student Ambassador",
       company: "Adobe",
-      period: "September 2024 - Present",
+      period: "October 2024 - Present",
       description:
         "Tested new Adobe product features and workflows pre-launch, identifying usability issues and providing feedback to product teams to improve user experience including Adobe Firefly (Generative AI). Planned and executed campus workshops, managing event logistics and stakeholder engagement to increase product adoption.",
       technologies: ["Adobe Express", "Creativity", "Workshops", "Pre-launch testing"],
@@ -72,7 +72,7 @@ export function ExperienceSection() {
     {
       title: "Co-founder",
       company: "CherryWheels.com (Social Venture)",
-      period: "June 2024 - Present",
+      period: "September 2024 - Present",
       description:
         "Women-founded venture crafting Designer Wheel Covers to boost confidence of Wheelchair users. Led end-to-end product lifecycle. Built operational systems (e-commerce) & automated influencer outreach workflows for marketing efficiency & high user engagement. Got featured in Adobe Supplier Diversity Newsletter, UCSC Baskin Engineering Newsletter, Marquees Who’s Who Magazine.",
       technologies: ["Entrepreneurship", "Accessibility", "Women Empowerment", "Inclusion"],
