@@ -11,8 +11,9 @@ export function EducationSection() {
     "Python",
     "Web Development",
     "Automation",
-    "LLM Pipeline",
+    "AI & LLM Pipeline",
     "Probability Theory",
+    "Accessibility in Technology",
     "Applied Discrete Mathematics",
   ];
 
