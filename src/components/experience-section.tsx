@@ -17,7 +17,7 @@ export function ExperienceSection() {
     {
       title: "Software Engineer Intern",
       company: "Overture Maps Foundation (Project Terraforma)",
-      period: "April 2026 - Present",
+      period: "April 2026 -Present",
       description:
         "Developed geospatial data pipelines to link POIs with buildings and addresses using spatial joins and nearest-neighbor matching. Implemented confidence scoring, failure analysis, and validation systems to improve accuracy on large-scale, noisy real-world map data.",
       technologies: ["Python", "Pandas", "GeoPandas", "Shapely", "Geospatial Analysis", "Data Engineering"],
