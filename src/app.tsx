@@ -11,10 +11,10 @@ import { SkillsSection } from "./components/skills-section";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-slate-50 text-slate-950">
       <Navigation />
 
-      <main className="container mx-auto px-4 py-8 max-w-4xl">
+      <main>
         <ProfileSection />
         <AboutSection />
         <EducationSection />
