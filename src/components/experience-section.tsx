@@ -34,6 +34,18 @@ export function ExperienceSection() {
       logoTone: "bg-sky-100 text-sky-700 ring-sky-200",
     },
     {
+      title: "Undergrad Researcher",
+      company: "Artificial Intelligence Lab @ UC Santa Cruz",
+      period: "April 2025 - Present",
+      description:
+        "Working on Touching Space, an accessibility-focused project building an audio–haptic map system to help blind and low-vision users understand and navigate spatial environments.",
+      technologies: ["Prolog", "LLMs", "AI", "Reasoning"],
+      logoAlt: "Artificial Intelligence Lab logo",
+      logoSrc: aiLabLogo,
+      initials: "AI",
+      logoTone: "bg-violet-100 text-violet-700 ring-violet-200",
+    },
+    {
       title: "Engineering Team",
       company: "CruzHacks @ UC Santa Cruz",
       period: "September 2025 - Present",
@@ -44,30 +56,6 @@ export function ExperienceSection() {
       logoSrc: cruzHacksLogo,
       initials: "CH",
       logoTone: "bg-sky-100 text-sky-700 ring-sky-200",
-    },
-    {
-      title: "Undergrad Researcher",
-      company: "Artificial Intelligence Lab @ UC Santa Cruz",
-      period: "January 2026 - Present",
-      description:
-        "Working on Touching Space, an accessibility-focused project building an audio–haptic map system to help blind and low-vision users understand and navigate spatial environments.",
-      technologies: ["Prolog", "LLMs", "AI", "Reasoning"],
-      logoAlt: "Artificial Intelligence Lab logo",
-      logoSrc: aiLabLogo,
-      initials: "AI",
-      logoTone: "bg-violet-100 text-violet-700 ring-violet-200",
-    },
-    {
-      title: "Co-founder",
-      company: "CherryWheels.com (Social Venture)",
-      period: "June 2024 - Present",
-      description:
-        "Women-founded venture crafting Designer Wheel Covers to boost confidence of Wheelchair users. Led end-to-end product lifecycle. Built operational systems (e-commerce) & automated influencer outreach workflows for marketing efficiency & high user engagement. Got featured in Adobe Supplier Diversity Newsletter, UCSC Baskin Engineering Newsletter, Marquees Who’s Who Magazine.",
-      technologies: ["Entrepreneurship", "Accessibility", "Women Empowerment", "Inclusion"],
-      logoAlt: "Cherry Wheels logo",
-      logoSrc: cherryWheelsLogo,
-      initials: "CW",
-      logoTone: "bg-rose-100 text-rose-700 ring-rose-200",
     },
     {
       title: "Adobe Student Ambassador",
@@ -82,6 +70,18 @@ export function ExperienceSection() {
       logoTone: "bg-red-100 text-red-700 ring-red-200",
     },
     {
+      title: "Co-founder",
+      company: "CherryWheels.com (Social Venture)",
+      period: "June 2024 - Present",
+      description:
+        "Women-founded venture crafting Designer Wheel Covers to boost confidence of Wheelchair users. Led end-to-end product lifecycle. Built operational systems (e-commerce) & automated influencer outreach workflows for marketing efficiency & high user engagement. Got featured in Adobe Supplier Diversity Newsletter, UCSC Baskin Engineering Newsletter, Marquees Who’s Who Magazine.",
+      technologies: ["Entrepreneurship", "Accessibility", "Women Empowerment", "Inclusion"],
+      logoAlt: "Cherry Wheels logo",
+      logoSrc: cherryWheelsLogo,
+      initials: "CW",
+      logoTone: "bg-rose-100 text-rose-700 ring-rose-200",
+    },
+    {
       title: "Research Intern",
       company: "Readability Research Group, Adobe",
       period: "Jan 2023 - Jan 2024",
@@ -92,7 +92,7 @@ export function ExperienceSection() {
       logoSrc: adobeReadabilityLogo,
       initials: "AR",
       logoTone: "bg-red-100 text-red-700 ring-red-200",
-    }
+    },
     // {
     //   title: "President, Adobe Club",
     //   company: "UC Santa Cruz",
