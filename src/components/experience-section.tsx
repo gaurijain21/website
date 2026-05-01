@@ -20,7 +20,7 @@ export function ExperienceSection() {
       period: "April 2026 -Present",
       description:
         "Developed geospatial data pipelines to link POIs with buildings and addresses using spatial joins and nearest-neighbor matching. Implemented confidence scoring, failure analysis, and validation systems to improve accuracy on large-scale, noisy real-world map data.",
-      technologies: ["Python", "Pandas", "GeoPandas", "Shapely", "Geospatial Analysis", "Data Engineering"],
+      technologies: ["Python", "Pandas", "Shapely", "Geospatial Analysis", "Data Engineering"],
       logoAlt: "Overture Maps Foundation logo placeholder",
       initials: "OM",
       logoTone: "bg-sky-100 text-sky-700 ring-sky-200",
