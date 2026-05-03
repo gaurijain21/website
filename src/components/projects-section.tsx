@@ -56,6 +56,15 @@ export function ProjectsSection() {
         "Handwritten notes are difficult to search and reuse; this system converts them into structured digital text for easier retrieval and integration into workflows.",
       technologies: ["OCR", "Accessibility Research", "Evaluation", "Assistive Technology"],
     },
+    {
+      title: "Influencer Dashboard [Live- Beta Testing]",
+      whatItIs:
+        "Coded a centralized dashboard to manage influencer outreach, track performance, and automate campaign workflows (designed with separate admin and influencer views). Actively using for CherryWheels to run influencer campaigns end-to-end and scale further, reducing manual outreach and tracking effort by ~60–70%.",
+      whyItMatters:
+        "Automating influencer systems reduces time spent on repetitive operational tasks, allowing more focus on higher-impact work like strategy, partnerships, and growth decisions.",
+      technologies: ["Full-Stack Development", "Automation Systems", "Dashboard Design", "Creator Economy Tools", "Product Thinking"],
+
+    },
     // {
     //   title: "Corporate Comic Lab [In progress]",
     //   whatItIs:
