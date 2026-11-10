@@ -4,15 +4,31 @@ import { Award, ExternalLink } from "lucide-react";
 export function CertificationsSection() {
   const certifications = [
     {
+      name: "PDFa11yMut: Mutation-Based Evaluation of PDF Accessibility Validators- arXiv Preprint, 2026",
+      issuer: "airXiv",
+      certificateUrl: "ttps://arxiv.org/abs/2609.33160",
+    },
+    {
       name: "AWS Certified Cloud Practitioner",
       issuer: "Amazon Web Services",
       date: "August 2025 - August 2028",
       certificateUrl: "https://www.credly.com/badges/da0ca2a5-346b-4b6d-97c9-9db1d50fc47a",
     },
     {
+      name: "Adobe Document Cloud Business Practitioner",
+      issuer: "Adobe",
+      date: "August 2026",
+    },
+    {
+      name: "Placed Top 2 NVIDIA x ASUS Hackathon",
+    },
+    {
+      name: " 1st place Launchpad Entrepreneurship Competition",
+    },
+    {
       name: "Dean's Honors",
       issuer: "UC Santa Cruz",
-      date: "Fall 2025, Winter 2025, Spring 2025",
+      date: "2024-2026",
     },
     {
       name: "Artificial Intelligence and Machine Learning by NVIDIA",
@@ -45,7 +61,7 @@ export function CertificationsSection() {
           <span className="rounded-2xl bg-blue-100 p-3 text-blue-700">
             <Award aria-hidden="true" />
           </span>
-          Certifications
+          Awards &amp; Recognition
         </h2>
         <div className="grid gap-5 md:grid-cols-2">
           {certifications.map((cert) => (

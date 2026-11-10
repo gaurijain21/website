@@ -3,6 +3,7 @@ import { Code, ExternalLink } from "lucide-react";
 
 type Project = {
   title: string;
+  period?: string;
   whatItIs: string;
   whyItMatters: string;
   technologies: string[];
@@ -11,6 +12,15 @@ type Project = {
 
 export function ProjectsSection() {
   const projects: Project[] = [
+    {
+      title: "SignLemon.com",
+      whatItIs:
+        "Built an AI-powered sign language platform with 300+ visitors and 1,500+ words processed. Developed a scalable pipeline supporting 4,600+ signs and phrases, handling misspellings, slang, synonyms, numbers, and fingerspelling.",
+      whyItMatters:
+        "Creating individual sign language videos is costly and time-consuming. SignLemon aims to make learning more accessible and scalable through AI-generated stick-figure animations.",
+      technologies: ["Next.js", "TypeScript", "Firebase", "Gemini API", "GA4"],
+      demo: "https://signlemon.com/",
+    },
     {
       title: "Accessibility Checker Web App (Live)",
       whatItIs:
@@ -96,7 +106,14 @@ export function ProjectsSection() {
               key={project.title}
               className="group flex h-full flex-col rounded-2xl border border-blue-100 bg-white p-6 shadow-sm shadow-blue-100/80 transition duration-200 hover:-translate-y-1 hover:border-blue-300 hover:shadow-xl"
             >
-              <h3 className="text-lg font-bold leading-7 text-slate-950">{project.title}</h3>
+              <div className="flex items-start justify-between gap-3">
+                <h3 className="text-lg font-bold leading-7 text-slate-950">{project.title}</h3>
+                {project.period && (
+                  <p className="shrink-0 pt-1 text-sm font-medium text-slate-500">
+                    {project.period}
+                  </p>
+                )}
+              </div>
 
               <div className="mt-4 flex-1 space-y-4">
                 <div>

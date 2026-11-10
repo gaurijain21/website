@@ -6,6 +6,7 @@ import aiLabLogo from "../assets/logos/ucsc1.jpg";
 import cherryWheelsLogo from "../assets/logos/empty.jpg";
 import cruzHacksLogo from "../assets/logos/Cruzhacks.png";
 import overtureLogo from "../assets/logos/omf.png";
+import benetechLogo from "../assets/logos/benetech.jfif";
 
 type Experience = {
   title: string;
@@ -21,6 +22,18 @@ type Experience = {
 
 export function ExperienceSection() {
   const experiences: Experience[] = [
+    {
+      title: "Partner Acquisition Intern",
+      company: "Benetech",
+      period: "July 2026 - October 2026",
+      description:
+        "Engineered an accessibility web-checking tool for the Partner Acquisition team to evaluate institutional accessibility and identify high-potential partnership opportunities. Designed and ran data-driven acquisition experiments, testing strategies, messaging, and engagement signals to improve Bookshare's institutional partnership growth and adoption.",
+      technologies: ["Product Strategy", "Partner Acquisition", "Accessibility Engineering", "Growth Experimentation"],
+      logoAlt: "Benetech logo",
+      logoSrc: benetechLogo,
+      initials: "B",
+      logoTone: "bg-blue-100 text-blue-700 ring-blue-200",
+    },
     {
       title: "Software Engineer Intern",
       company: "Overture Maps Foundation (Project Terraforma)",

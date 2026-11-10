@@ -22,6 +22,17 @@ export function AboutSection() {
             <br /><br />
 
             I also care deeply about digital accessibility and believe software should be built to work well for a wide range of users. I’m interested in creating solutions that are not just technically strong, but also inclusive and user-centered.
+            <br /><br />
+
+            <a
+              href="https://arxiv.org/abs/2609.33160"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-blue-700 underline decoration-blue-300 underline-offset-4 transition hover:text-blue-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
+              ~ PDFa11yMut: Mutation-Based Evaluation of PDF Accessibility Validators
+            </a>{" "}
+            - arXiv Preprint, 2026
           </p>
         </div>
       </div>

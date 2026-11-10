@@ -13,7 +13,7 @@ export function Navigation() {
     { id: "education", label: "Education" },
     { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
-    { id: "certifications", label: "Certifications" },
+    { id: "certifications", label: "Awards & Recognition" },
     { id: "skills", label: "Skills" },
   ];
 
